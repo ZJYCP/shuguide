@@ -1,0 +1,12 @@
+<!-- 地点介绍 -->
+<image style="width:100%" src="https://guide.emx6.com/image/detailimg/{{detailimg}}" class="picture"></image>
+<view class="mid">
+    <view class="title">{{title}}</view>
+    <view catchtap="gotowalk" data-id="{{id}}">
+        <image class='goto' src='../../images/guide.png'></image>
+    </view>
+</view>
+
+<view class="below">
+    <view class="desc">{{desc}}</view>
+</view>

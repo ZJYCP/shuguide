@@ -1,0 +1,23 @@
+<template name="catalog">
+  <view class="m-poi" bindtap="gotodetail" data-id="{{ id }}" >              
+    <image class="cover" src="https://guide.emx6.com/image/headimg/{{headimg}}" background-size="cover"></image>
+    <view class="info">
+    <view>
+      <view class="title"><text>{{ title}}</text></view>
+      <view class="rating">
+             <block  wx:for="{{ [1, 2, 3, 4, 5] }}"  wx:key="*this"> 
+      <image  src="../../images/star.png"></image>
+     </block>      
+      </view>
+      <view class="desc">
+        <view><text decode="true" space="true">{{ synopsis }}</text></view>
+      </view>
+      </view>
+<view catchtap="gotowalk" data-id="{{id}}" class='goicon'>
+<image src="../../images/guide.png" style="height: 80rpx; width:80rpx;" mode="scaleToFill" name="guideicon"></image>
+</view> 
+    </view>
+     <view class='line'></view>        
+  </view>
+        
+</template>

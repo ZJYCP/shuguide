@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/school/school",
+    "pages/navigation_walk/navigation",
+    "pages/navigation_walk_detail/navigation",
+    "pages/history/history",
+    "pages/school/monthly/monthly",
+    "pages/school/detail/detail",
+    "pages/guide/index",
+    "pages/profile/profile"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#184878",
+    "navigationBarTitleText": "上大导览",
+    "navigationBarTextStyle": "#F5F5F5"
+  }
+}

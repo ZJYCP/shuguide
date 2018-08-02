@@ -1,0 +1,88 @@
+.index-title {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Hiragino Sans GB";
+}
+
+.index-synopsis {
+  font-size: 15px;
+  color: #666;
+  font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+}
+
+.container {
+  border: 1px solid #6cf;
+  border-radius: 3px;
+  margin-bottom: 10rpx;
+}
+
+.test1 {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.m-poi{
+  position: relative;
+}
+.m-poi .cover{
+  width: 190rpx;
+  height: 190rpx;
+  border-radius: 8rpx;
+  float: left;
+  margin-right: 20rpx;
+  background-color: #E7DDC7;
+}
+.m-poi .label{
+  position: absolute;
+  left: -2rpx;
+  top: 20rpx;
+  width: 57rpx;
+  height: 37rpx;
+}
+.m-poi .info{
+    display: flex;
+  flex-direction: row;
+ justify-content: space-between;
+  height: 190rpx;
+  overflow: hidden;
+  position: relative;
+}
+.m-poi .title{
+  font-size: 34rpx;
+  line-height: 34rpx;
+  font-weight: bold;
+  margin-top: 5rpx;
+}
+.m-poi .rating{
+  color: #999;
+  font-size: 22rpx;
+  margin-top: 10rpx;
+}
+.m-poi .rating image{
+  width: 26rpx;
+  height: 26rpx;
+  margin-right: 7rpx;
+}
+.m-poi .m-rating{
+  display: inline-block;
+  vertical-align: middle;
+}
+.m-poi .rating .count{
+  margin-left: 10rpx;
+}
+.m-poi .desc{
+  color: #5c5c5c;
+  font-size: 24rpx;
+  margin-top: 5rpx;
+  line-height: 34rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.goicon{
+align-self: center;
+ position: relative;
+}
