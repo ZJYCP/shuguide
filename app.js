@@ -8,7 +8,7 @@ App({
     wx.setStorageSync('logs', logs)
     // wx.showToast({
     //   title: '加载中',
-    //   icon: "loading"
+    //   icon: "loadin"
     // })
   },
 
