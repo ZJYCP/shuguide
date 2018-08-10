@@ -31,7 +31,7 @@
 .history-bymonth {
     height: 20px;
     padding: 10px;
-    margin: 0 20 rpx;
+    margin: 0 20rpx;
     border-bottom: 1px solid #ebebeb;
 }
 

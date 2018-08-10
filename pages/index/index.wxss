@@ -6,8 +6,8 @@
     position: absolute;
     top:400rpx;
     left: 185rpx;
-    width: 105rpx;
-    height: 105rpx;
+    width: 120rpx;
+    height: 120rpx;
     background-color: #B0E0E6;
     text-align: center;
     border-radius: 500px;
@@ -21,8 +21,8 @@
     position: absolute;
     top:400rpx;
     right: 185rpx;
-    width: 105rpx;
-    height: 105rpx;
+    width: 120rpx;
+    height: 120rpx;
     background-color: #B0E0E6;
     text-align: center;
     border-radius: 500px;
@@ -34,13 +34,18 @@
 .topm{
     position: absolute;
     top:550rpx;
-    right: 42%;
-    width: 105rpx;
-    height: 105rpx;
+    right: 295rpx;
+    width: 120rpx;
+    height: 120rpx;
     background-color: #B0E0E6;
     text-align: center;
     border-radius: 500px;
     opacity:0.5;
     color: black;
     padding: 20rpx;
+}
+.nav-text{
+    line-height:60rpx;
+    color: #111;
+    font-weight: 500;
 }

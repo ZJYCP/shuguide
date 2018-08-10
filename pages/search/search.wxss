@@ -2,7 +2,7 @@
 
 .Search-all {
     background-color: #184878;
-    padding: 16 rpx;
+    padding: 16rpx;
     box-sizing: border-box;
     /* position: fixed; */
     top: 0;
@@ -15,30 +15,30 @@
     display: inline-block;
     vertical-align: top;
     background-color: #fff;
-    height: 60 rpx;
-    width: 500 rpx;
-    border-radius: 30 rpx;
-    margin-left: 50 rpx;
+    height: 60rpx;
+    width: 500rpx;
+    border-radius: 30rpx;
+    margin-left: 50rpx;
 }
 
 .search-icon {
-    margin: 0 20 rpx 0 48 rpx;
+    margin: 0 20rpx 0 48rpx;
     vertical-align: middle;
 }
 
 .input-text {
     display: inline-block;
     vertical-align: middle;
-    height: 60 rpx;
+    height: 60rpx;
     width: 75%;
 }
 
 .search-text {
     display: inline-block;
     vertical-align: middle;
-    margin-left: 45 rpx;
+    margin-left: 45rpx;
     color: #EEEEEE;
-    font-size: 38 rpx;
+    font-size: 38rpx;
 }
 
 /** 下方区域 */
@@ -137,8 +137,8 @@
     display: flex;
     box-sizing: border-box;
     background-color: #efeff4;
-    border-top: 1 rpx solid #d7d6dc;
-    border-bottom: 1 rpx solid #d7d6dc;
+    border-top: 1rpx solid #d7d6dc;
+    border-bottom: 1rpx solid #d7d6dc;
 }
 
 .weui-icon-search {
@@ -165,7 +165,7 @@
     flex: auto;
     border-radius: 5px;
     background: #fff;
-    border: 1 rpx solid #e6e6ea;
+    border: 1rpx solid #e6e6ea;
 }
 
 .weui-search-bar__box {

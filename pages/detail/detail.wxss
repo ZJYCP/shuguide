@@ -9,7 +9,7 @@
     align-items: center;
     /* width: 750rpx; */
     height: 15%;
-    margin: 0 10 rpx;
+    margin: 0 10rpx;
 }
 
 .title {

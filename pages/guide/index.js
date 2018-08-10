@@ -1,5 +1,5 @@
 import guide from '../../api/guide.js'
-
+import util from '../../utils/util.js'
 Page({
     data: {
         include_points: [],
@@ -30,7 +30,7 @@ Page({
         var that = this
         guide.getplace({
             query: {
-                kind: '01'
+                kind: '101'
             },
             success: (res) => {
                 // console.log(res)
@@ -46,7 +46,7 @@ Page({
                 campus:campus
             },
             success:(res)=>{
-                console.log(res.data.data)
+                //console.log(res.data.data)
                 that.setData({
                     kindlist:res.data.data
                 })
@@ -58,9 +58,11 @@ Page({
     getcatalog: function (e) {
         console.log(e)
         this.setData({placeclick: e.currentTarget.dataset.placeclick})
-        var kind = parseInt(e.target.id)
-        kind +=1
+        let kind = parseInt(e.target.id)+1
         kind = kind < 10 ? '0' + kind : kind
+        let campus=parseInt(this.data.index)+1
+        kind=campus+kind
+        //console.log(this.data.index)
         var that = this
 
         guide.getplace({
@@ -110,9 +112,26 @@ Page({
 
     //校区改变
     bindPickerChange: function (e) {
-        this.setData({
-            index: e.detail.value
-        })
+        let that=this
+
+        util.showBusy('正在切换',500)
+        setTimeout(function () {
+            that.setData({
+                index: e.detail.value
+            })
+            let campus=parseInt(e.detail.value)+1
+            that.getkind(campus)
+            guide.getplace({
+                query: {
+                    kind: campus+'01'
+                },
+                success: (res) => {
+                    that.makefun(res)
+                }
+            })
+
+        },700)
+
     },
 
     //地点都是
