@@ -1,7 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d3c32fe-d899-441b-b2ac-d229f57c60f1" name="Default Changelist" comment="TEST" />
+    <list default="true" id="9d3c32fe-d899-441b-b2ac-d229f57c60f1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/search/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/search/search.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/search/search.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/search/search.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/guide.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/guide.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/detail/detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/detail/detail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/detail/detail.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/detail/detail.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/guide/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/guide/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/guide/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/guide/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/guide/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/guide/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/history/history.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/history/history.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/history/history.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/history/history.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/history/history.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/history/history.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/navigation_walk/navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/navigation_walk/navigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/navigation_walk/navigation.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/navigation_walk/navigation.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/navigation_walk/navigation.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/navigation_walk/navigation.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/navigation_walk_detail/navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/navigation_walk_detail/navigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/navigation_walk_detail/navigation.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/navigation_walk_detail/navigation.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/navigation_walk_detail/navigation.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/navigation_walk_detail/navigation.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/profile/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/profile/profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/profile/profile.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/profile/profile.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/profile/profile.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/profile/profile.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/school/detail/detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/school/detail/detail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/school/detail/detail.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/school/detail/detail.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/school/detail/detail.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/school/detail/detail.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/school/monthly/monthly.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/school/monthly/monthly.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/school/monthly/monthly.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/school/monthly/monthly.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/school/monthly/monthly.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/school/monthly/monthly.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/school/school.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/school/school.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/school/school.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/school/school.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/school/school.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/school/school.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/school/templates/volItem.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/school/templates/volItem.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/template/catalog.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/template/catalog.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/template.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/utils/template.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/util.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -15,37 +58,57 @@
     <session id="-1791996860">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="2" />
+          <entry key="js" value="384" />
+          <entry key="json" value="23" />
           <entry key="md" value="28" />
+          <entry key="php" value="612" />
           <entry key="txt" value="13" />
+          <entry key="wxml" value="78" />
+          <entry key="wxss" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="2" />
+          <entry key="CSS" value="10" />
+          <entry key="HTML" value="78" />
+          <entry key="JSON" value="23" />
+          <entry key="JavaScript" value="384" />
+          <entry key="PHP" value="612" />
           <entry key="PLAIN_TEXT" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="5" />
+          <entry key="js" value="14" />
+          <entry key="json" value="3" />
           <entry key="md" value="1" />
+          <entry key="php" value="8" />
+          <entry key="wxml" value="11" />
+          <entry key="wxss" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JavaScript" value="5" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="CSS" value="7" />
+          <entry key="HTML" value="10" />
+          <entry key="JSON" value="3" />
+          <entry key="JavaScript" value="14" />
+          <entry key="PHP" value="8" />
+          <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -54,42 +117,64 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/school/school.js">
+        <entry file="file://$PROJECT_DIR$/pages/guide/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+            <state relative-caret-position="386">
+              <caret line="65" column="24" lean-forward="true" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/index/index.js">
+        <entry file="file://$PROJECT_DIR$/pages/guide/index.wxml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+              <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+              <folding>
+                <element signature="n#style#0;n#scroll-view#0;n#view#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#scroll-view#0;n#view#1;n#view#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#block#0;n#view#0;n#scroll-view#0;n#view#1;n#view#1;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.js">
+        <entry file="file://$PROJECT_DIR$/pages/template/catalog.wxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+            <state relative-caret-position="285">
+              <caret line="19" column="25" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="25" />
+              <folding>
+                <element signature="n#style#0;n#image#0;n#view#1;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
+        <entry file="file://$PROJECT_DIR$/utils/template.wxss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+            <state relative-caret-position="265">
+              <caret line="65" column="1" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/guide/index.wxss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>line</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -98,20 +183,42 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pages/school/school.js" />
-        <option value="$PROJECT_DIR$/pages/guide/index.js" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/app.json" />
+        <option value="$PROJECT_DIR$/utils/util.js" />
+        <option value="$PROJECT_DIR$/pages/search/search.js" />
+        <option value="$PROJECT_DIR$/pages/search/search.wxml" />
+        <option value="$PROJECT_DIR$/pages/search/search.wxss" />
+        <option value="&lt;e1f8a320-5750-4c0b-9748-0463fc9a0def&gt;/Shuguide/Api/Guide.php" />
+        <option value="&lt;e1f8a320-5750-4c0b-9748-0463fc9a0def&gt;/Shuguide/Domain/Guide.php" />
+        <option value="$PROJECT_DIR$/api/guide.js" />
+        <option value="$PROJECT_DIR$/pages/index/index.wxss" />
+        <option value="&lt;e1f8a320-5750-4c0b-9748-0463fc9a0def&gt;/Shuguide/Model/Guide.php" />
+        <option value="$PROJECT_DIR$/pages/guide/index.js" />
+        <option value="$PROJECT_DIR$/pages/guide/index.wxml" />
+        <option value="$PROJECT_DIR$/pages/template/catalog.wxml" />
+        <option value="$PROJECT_DIR$/pages/guide/index.wxss" />
+        <option value="$PROJECT_DIR$/utils/template.wxss" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1016" />
-    <option name="height" value="732" />
+    <option name="y" value="-1" />
+    <option name="width" value="952" />
+    <option name="height" value="927" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -119,7 +226,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -127,17 +233,68 @@
               <item name="shuguide" type="b2602c69:ProjectViewProjectNode" />
               <item name="shuguide" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="shuguide" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shuguide" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shuguide" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shuguide" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shuguide" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shuguide" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="guide" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shuguide" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shuguide" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="history" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shuguide" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shuguide" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shuguide" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shuguide" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shuguide" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shuguide" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/koa-demo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pages" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -166,6 +323,13 @@
       <workItem from="1533220744035" duration="1580000" />
       <workItem from="1533222427520" duration="1164000" />
       <workItem from="1533379591769" duration="34000" />
+      <workItem from="1533379646105" duration="2178000" />
+      <workItem from="1533625982325" duration="175000" />
+      <workItem from="1533628042045" duration="324000" />
+      <workItem from="1533628392283" duration="1918000" />
+      <workItem from="1533779373185" duration="303000" />
+      <workItem from="1533801847699" duration="1763000" />
+      <workItem from="1533862646811" duration="19298000" />
     </task>
     <task id="LOCAL-00001" summary="upload">
       <created>1533220422240</created>
@@ -209,11 +373,18 @@
       <option name="project" value="LOCAL" />
       <updated>1533222543306</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="TEST">
+      <created>1533379721312</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1533379721312</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3397000" />
+    <option name="totallyTimeSpent" value="29356000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -225,9 +396,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-1" width="1920" height="1039" extended-state="6" />
+    <frame x="0" y="-1" width="1920" height="1082" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.130343" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.104700856" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -236,15 +408,16 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49545914" weight="0.3294893" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4949868" weight="0.32932165" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4817942" weight="0.32603937" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.48548812" visible="true" weight="0.21881838" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5145119" side_tool="true" visible="true" weight="0.21881838" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.47862798" visible="true" weight="0.28213167" />
+      <window_info anchor="bottom" x="12" y="458" width="1895" height="164" id="Terminal" order="9" sideWeight="0.4823219" weight="0.1431557" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.521372" side_tool="true" weight="0.3260188" />
       <window_info active="true" anchor="bottom" id="Messages" order="11" sideWeight="0.49949545" visible="true" weight="0.3294893" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="0" visible="true" weight="0.07852564" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,45 +458,157 @@
     <option name="LAST_COMMIT_MESSAGE" value="TEST" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/api/guide.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/guide/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="100" column="11" lean-forward="true" selection-start-line="100" selection-start-column="11" selection-end-line="100" selection-end-column="11" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/school/school.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+        <state relative-caret-position="270">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/index/index.js">
+    <entry file="file://$PROJECT_DIR$/pages/history/history.wxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        <state relative-caret-position="255">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        <state relative-caret-position="150">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/api/api.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/util.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        <state relative-caret-position="665">
+          <caret line="60" column="19" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/search/search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1095">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/search/search.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/search/search.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="43" column="11" lean-forward="true" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/guide.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="11" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-70">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index/index.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index/index.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+          <folding>
+            <element signature="n#style#0;n#image#0;n#view#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/guide/index.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#scroll-view#0;n#view#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#scroll-view#0;n#view#1;n#view#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#block#0;n#view#0;n#scroll-view#0;n#view#1;n#view#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/template/catalog.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#image#0;n#view#1;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index/index.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/guide/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="65" column="24" lean-forward="true" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/guide/index.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/template.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="65" column="1" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
         </state>
       </provider>
     </entry>

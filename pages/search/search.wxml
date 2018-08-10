@@ -1,0 +1,53 @@
+<import src="../template/catalog.wxml"/>
+
+
+<view class="Search-all">
+    <view class="input-box">
+        <icon class="search-icon" type="search" size="12" color="#999"/>
+        <input class="input-text" placeholder="搜一搜" bindinput="inputing" focus='true'/>
+    </view>
+    <text class="search-text" bindtap="gosearch">搜索</text>
+</view>
+
+
+<!--未修复bug，在已进行过搜索的情况下，在此在输入框输入，不出现提示符。 如果把tipkey这一部分放到外面会更麻烦，，有解决办法的  -->
+<view wx:if="{{havesearch==1?0:1}}" class="search-nav" style="'block'">
+    <view class="searchInner">
+        <view class="tipkey">
+            <view class="tipkeylist">
+                <block wx:for="{{tipkeys}}">
+                    <view class="tipkeyitem" bindtap="directsearch" data-key="{{item}}">{{item}}</view>
+                </block>
+            </view>
+        </view>
+
+        <view wx:if="{{history[0]}}" class="History" style="display:{{input.length>0 ? 'none':'block'}}">
+            <view class="HistoryItem">
+                <text class="HistoryTitle">搜索记录</text>
+                <icon type="clear" bindtap="DeleteHistory" size="18"/>
+            </view>
+            <view class="keylist">
+                <block wx:for="{{history}}">
+                    <view class="keyitem" bindtap="directsearch" data-key="{{item}}">{{item}}</view>
+                </block>
+            </view>
+        </view>
+
+        <view class="wxSearchKey" style="display:{{input.length>0 ? 'none':'block'}}">
+            <text wx:if="{{hotKeys[0]}}" class="hottitle">搜索热点</text>
+            <view class="keylist">
+                <block wx:for="{{hotKeys}}">
+                    <view class="keyitem" bindtap="directsearch" data-key="{{item}}">{{item}}</view>
+                </block>
+            </view>
+        </view>
+    </view>
+</view>
+
+<view wx:if="{{havesearch==1?1:0}}">
+    <view class="foodlist">
+        <view class="" wx:for="{{dishlist}}" wx:key="{{dishId}}">
+            <template is="catalog" data="{{...item}}"/>
+        </view>
+    </view>
+</view>

@@ -27,13 +27,16 @@ const wxRequest = (params, url) => {
 const getplace = (params) => wxRequest(params, host + 'Guide.getPlace&kind=' + params.query.kind)
 const getdetail = (params) => wxRequest(params, host + 'Guide.getDetail&id=' + params.query.id)
 const getmap=(params)=>wxRequest(params,host+'Guide.getMap&id='+params.query.id)
-const getchat = (params) => wxRequest(params, host + 'Chat.getchat&number=' + params.query.number)
-const pushsaying = (params) => wxRequest(params, host + 'Chat.pushsaying&saying=' + params.query.saying)
+const gettipkey=(params)=>wxRequest(params,host+'Guide.getTip&cont='+params.query.cont)
+const getplace_bysearch=(params)=>wxRequest(params,host+'Guide.getSearch&cont='+params.query.cont)
+const getkind=(params)=>wxRequest(params,host+'Guide.getKind&campus='+params.query.campus)
 
-module.exports={
-  getplace,
-  getdetail,
-  getmap,
-  getchat,
-  pushsaying
+module.exports = {
+    getplace,
+    getdetail,
+    getmap,
+    gettipkey,
+    getplace_bysearch,
+    getkind
+
 }

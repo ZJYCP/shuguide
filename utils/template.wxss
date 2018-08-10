@@ -40,9 +40,9 @@
   height: 37rpx;
 }
 .m-poi .info{
-    display: flex;
+  display: flex;
   flex-direction: row;
- justify-content: space-between;
+  justify-content: space-between;
   height: 190rpx;
   overflow: hidden;
   position: relative;
@@ -58,6 +58,13 @@
   font-size: 22rpx;
   margin-top: 10rpx;
 }
+
+.m-poi .line {
+  width: 100%;
+  height: 2 rpx;
+  background: #c0c0c0;
+}
+
 .m-poi .rating image{
   width: 26rpx;
   height: 26rpx;
@@ -83,6 +90,6 @@
 }
 
 .goicon{
-align-self: center;
- position: relative;
+  align-self: center;
+  position: relative;
 }

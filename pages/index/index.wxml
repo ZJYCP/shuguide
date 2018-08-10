@@ -1,7 +1,13 @@
 <!--index.wxml-->
 <view class="container">
-  <image class='logo' src='/images/b.png' style='height:{{height}}px'></image>
-  <navigator url="/pages/profile/profile" hover-class="navigator-hover"><view class='topo'>上大\n简介</view></navigator>
-  <navigator url="/pages/guide/index" hover-class="navigator-hover"><view class='topt'>游览\n上大</view></navigator>
-  <navigator url="/pages/school/school" hover-class="navigator-hover"><view class='topm'>上大\n资讯</view></navigator>
+    <image class='logo' src='/images/b.png' style='height:{{height}}px'></image>
+    <navigator url="/pages/profile/profile" hover-class="navigator-hover">
+        <view class='topo'>上大\n简介</view>
+    </navigator>
+    <navigator url="/pages/guide/index" hover-class="navigator-hover">
+        <view class='topt'>游览\n上大</view>
+    </navigator>
+    <navigator url="/pages/school/school" hover-class="navigator-hover">
+        <view class='topm'>上大\n资讯</view>
+    </navigator>
 </view>

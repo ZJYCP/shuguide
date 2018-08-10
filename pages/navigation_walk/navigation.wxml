@@ -1,19 +1,20 @@
- <view class="flex-style">
-  <!-- <view class="flex-item" bindtouchstart="goToCar">驾车</view>
-  <view class="flex-item active" bindtouchstart="goToWalk">步行</view>
-  <view class="flex-item" bindtouchstart="goToBus">公交</view>
-  <view class="flex-item" bindtouchstart="goToRide">骑行</view> -->
+<view class="flex-style">
+    <!-- <view class="flex-item" bindtouchstart="goToCar">驾车</view>
+    <view class="flex-item active" bindtouchstart="goToWalk">步行</view>
+    <view class="flex-item" bindtouchstart="goToBus">公交</view>
+    <view class="flex-item" bindtouchstart="goToRide">骑行</view> -->
     <view class="flex-item active" bindtouchstart="goToWalk">只有步行</view>
-</view> 
+</view>
 <view class="map_box">
-  <map id="navi_map" longitude="121.393518" latitude="31.316211" scale="16" markers="{{markers}}" polyline="{{polyline}}"></map>
+    <map id="navi_map" longitude="121.393518" latitude="31.316211" scale="16" markers="{{markers}}"
+         polyline="{{polyline}}"></map>
 </view>
 
 <view class="text_box">
-  <view class="text">{{distance}}</view>
-  <view class="text">{{cost}}</view>
-  <navigator url="../navigation_walk_detail/navigation?destination={{destination}}&origin={{origin}}">
-    <view class="detail_button" >详情</view>
-  </navigator>
+    <view class="text">{{distance}}</view>
+    <view class="text">{{cost}}</view>
+    <navigator url="../navigation_walk_detail/navigation?destination={{destination}}&origin={{origin}}">
+        <view class="detail_button">详情</view>
+    </navigator>
 
 </view>

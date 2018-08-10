@@ -1,20 +1,21 @@
 <!--历史记录-->
 <view class="container">
-  <view wx:if="{{page === 'reading'}}">
-    <view class="types">
-      <view wx:for="{{types}}" class="type-item" wx:key="type">
-        <text wx:if="{{type === item.type}}" class="seleted">{{item.name}}</text>
-        <text wx:else data-type="{{item.type}}" bindtap="setType">{{item.name}}</text>
-      </view>
+    <view wx:if="{{page === 'reading'}}">
+        <view class="types">
+            <view wx:for="{{types}}" class="type-item" wx:key="type">
+                <text wx:if="{{type === item.type}}" class="seleted">{{item.name}}</text>
+                <text wx:else data-type="{{item.type}}" bindtap="setType">{{item.name}}</text>
+            </view>
+        </view>
+        <view class="fix-fixed"></view>
     </view>
-    <view class="fix-fixed"></view>
-  </view>
-  <scroll-view scroll-y="true">
-    <block wx:for="{{dateList}}" wx:key="value" >
-      <view class="history-bymonth" data-month="{{item.value}}" data-title="{{item.title}}" catchtap="getMonthly">
-        <text class="history-date" data-month="{{item.value}}" data-title="{{item.title}}">{{item.title}}</text>
-        <image class="forward" src="../../../images/forward.png" data-month="{{item.value}}" data-title="{{item.title}}"></image>
-      </view>
-    </block>
-  </scroll-view>
+    <scroll-view scroll-y="true">
+        <block wx:for="{{dateList}}" wx:key="value">
+            <view class="history-bymonth" data-month="{{item.value}}" data-title="{{item.title}}" catchtap="getMonthly">
+                <text class="history-date" data-month="{{item.value}}" data-title="{{item.title}}">{{item.title}}</text>
+                <image class="forward" src="../../../images/forward.png" data-month="{{item.value}}"
+                       data-title="{{item.title}}"></image>
+            </view>
+        </block>
+    </scroll-view>
 </view>

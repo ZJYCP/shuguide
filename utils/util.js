@@ -1,11 +1,11 @@
 
-const MONTH_MAP = ['Jan.', 'Feb.', 'Mar.', 'Apr.', 'May.','Jun.', 
+const MONTH_MAP = ['Jan.', 'Feb.', 'Mar.', 'Apr.', 'May.','Jun.',
                           'Jul.', 'Aug.', 'Sep.', 'Otc.', 'Nov.', 'Dec.']
 
 const filterContent = (string) => string.replace(/[\r\n]/g, "").replace(/<.*?>/g, "\n")
 
 const formatMakettime = (dateString) => {
-   return (new Date(dateString)).toString().split(' ', 4).slice(1, 4).join(' ')  
+   return (new Date(dateString)).toString().split(' ', 4).slice(1, 4).join(' ')
 }
 
 
@@ -27,13 +27,36 @@ const getDateList = () => {
       })
     }
   }
-  
+
   dateList = dateList.slice(11 - nowMonth, dateList.length - beginMonth)
   return dateList
+}
+
+// 显示繁忙提示
+var showBusy = (text, dur) => wx.showToast({
+    title: text,
+    icon: 'loading',
+    duration: dur
+})
+
+// 显示成功提示
+var showSuccess = text => wx.showToast({
+    title: text,
+    icon: 'success'
+})
+
+// 显示失败提示
+var showModel = (title, content) => {
+    wx.hideToast();
+
+    wx.showModal({
+        title,
+        content: JSON.stringify(content),
+    })
 }
 
 module.exports = {
   getDateList,
   filterContent,
-  formatMakettime
+  formatMakettime, showBusy, showSuccess, showModel
 }

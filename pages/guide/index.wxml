@@ -1,39 +1,42 @@
-<import src="../template/catalog.wxml" />
+<import src="../template/catalog.wxml"/>
 
-<map id="myMap" class="{{ischecked?'map_checked':'map_normal'}}" show-location include-points="{{include_points}}" latitude="{{latitude}}" longitude="{{longitude}}" markers="{{markers}}"  bindcontroltap="controltap" scale="15">
-    <cover-view class="tip" >
-      <cover-image class="tip-img" src="../../images/search.png" bindtap="controltap" />
-      <cover-image class="tip-img" src="../../images/locate.png" bindtap="getmylocation"/>
+<map id="myMap" class="{{ischecked?'map_checked':'map_normal'}}" show-location include-points="{{include_points}}"
+     latitude="{{latitude}}" longitude="{{longitude}}" markers="{{markers}}" bindcontroltap="controltap" scale="15">
+    <cover-view class="tip">
+        <cover-image class="tip-img" src="../../images/search.png" bindtap="controltap"/>
+        <cover-image class="tip-img" src="../../images/locate.png" bindtap="getmylocation"/>
     </cover-view>
 </map>
 
 <view class='check' style='height:5%' bindtap='collapse' data-state="{{ischecked}}">
-<text>共有{{count}}个{{placeclick}}</text>
-<image class="ch_icon" src="../../images/{{ischecked?'up':'down'}}.png" style="height:40rpx ;width:40rpx"></image>
+    <text>共有{{count}}个{{placeclick}}</text>
+    <image class="ch_icon" src="../../images/{{ischecked?'up':'down'}}.png" style="height:40rpx ;width:40rpx"></image>
 </view>
 
 <view class="{{ischecked?'bottom_checked':'bottom_normal'}}">
-  <scroll-view class="catogory" scroll-y="true" style="height: 100%;">
-    <block wx:for="{{place}}" wx:key="id">
-      <template is="catalog" data="{{...item}}" />
-    </block>
-  </scroll-view>
-  <view>
-  </view>
-
-  <view class="place" style="height: 100%;">
-    <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}" style="height: 10%;">
-      <view class="campus">
-        {{array[index]}}
-      </view>
-      <view class='line'></view>
-    </picker>
-    <scroll-view scroll-y="true" style="height: 90%;">
-      <view class="right">
-      <block wx:for="{{['大门','教学楼','食堂','快递','ATM','体育场','景点','教超','宿舍楼','美食','打印店','其他']}}" wx:key="*this">
-        <button plain="true" style="border:none;color:#F5F5F5" class="placeBtn" bindtap="getcatalog" id="{{index}}" data-placeclick="{{item}}">{{item}}</button>     
-      </block>
-      </view>
+    <scroll-view class="catogory" scroll-y="true" style="height: 100%;">
+        <block wx:for="{{place}}" wx:key="id">
+            <template is="catalog" data="{{...item}}"/>
+        </block>
     </scroll-view>
-  </view>
+    <view>
+    </view>
+
+    <view class="place" style="height: 100%;">
+        <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}" style="height: 10%;">
+            <view class="campus">
+                {{array[index]}}
+            </view>
+            <view class='guide-line'></view>
+        </picker>
+        <scroll-view scroll-y="true" style="height: 90%;">
+            <view class="right">
+                <block wx:for="{{kindlist}}" wx:key="">
+                    <button plain="true" style="border:none;color:#F5F5F5" class="placeBtn" bindtap="getcatalog"
+                            id="{{index}}" data-placeclick="{{item.content}}">{{item.content}}
+                    </button>
+                </block>
+            </view>
+        </scroll-view>
+    </view>
 </view>

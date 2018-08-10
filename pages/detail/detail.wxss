@@ -1,35 +1,36 @@
 .picture {
-  height: 35%;
+    height: 35%;
 }
 
-.mid{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  /* width: 750rpx; */
-  height: 15%;
-  margin: 0 10rpx ;
+.mid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 750rpx; */
+    height: 15%;
+    margin: 0 10 rpx;
 }
+
 .title {
-  line-height: 30px;
-  font-size: 25px;
-  font-weight: bold;
-  color:#2e68aa;
+    line-height: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #2e68aa;
 }
 
 .desc {
-  font-size: 15px;
-  text-indent: 30px;
-  color: #708090
+    font-size: 15px;
+    text-indent: 30px;
+    color: #708090
 }
 
 .goto {
-height: 40px;
-width: 40px;
+    height: 40px;
+    width: 40px;
 }
 
-.below{
-  height: 50%;
-  background: #F5F5F5;
+.below {
+    height: 50%;
+    background: #F5F5F5;
 }
