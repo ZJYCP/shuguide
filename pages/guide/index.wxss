@@ -32,10 +32,15 @@
     background-color: #1e50a2;
 }
 
-.guide-line {
+.line {
     width: 100%;
     height: 2 rpx;
     background: #aaa;
+}
+.m-poi .line {
+    width: 100%;
+    height: 2 rpx;
+    background: #c0c0c0;
 }
 
 
