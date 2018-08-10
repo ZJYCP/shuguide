@@ -1,10 +1,6 @@
 //校园新闻API
 const host = 'https://guide.emx6.com/shuguide/'
 const wxRequest = (params, url) => {
-    // wx.showToast({
-    //   title: '加载中',
-    //   icon: 'loading'
-    // })
     wx.request({
         url: url,
         method: params.method || 'GET',
