@@ -10,7 +10,13 @@
     "pages/school/detail/detail",
     "pages/guide/index",
     "pages/profile/profile",
-    "pages/search/search"
+    "pages/search/search",
+    "pages/news/news",
+    "pages/news/jw/jw_detail",
+    "pages/news/oa/oa_detail",
+    "pages/news/hy/hy_detail",
+    "pages/news/jz/jz_detail",
+    "pages/news/new/new_detail"
   ],
   "window": {
     "backgroundTextStyle": "light",

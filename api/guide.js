@@ -30,6 +30,7 @@ const getmap = (params) => wxRequest(params, host + 'Guide.getMap&id=' + params.
 const gettipkey = (params) => wxRequest(params, host + 'Guide.getTip&cont=' + params.query.cont)
 const getplace_bysearch = (params) => wxRequest(params, host + 'Guide.getSearch&cont=' + params.query.cont)
 const getkind = (params) => wxRequest(params, host + 'Guide.getKind&campus=' + params.query.campus)
+const getnewslist = (params) => wxRequest(params, host + 'Default.getlist&type='+ params.query.type+'&page='+ params.query.page)
 
 module.exports = {
     getplace,
@@ -37,6 +38,7 @@ module.exports = {
     getmap,
     gettipkey,
     getplace_bysearch,
-    getkind
+    getkind,
+    getnewslist
 
 }

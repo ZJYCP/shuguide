@@ -45,7 +45,7 @@
 
 
 .placeBtn {
-    font-size: 14px;
+    font-size: 30rpx;
 }
 
 .bottom_normal {
@@ -62,7 +62,7 @@
 .campus {
     display: flex;
     justify-content: center;
-    font-size: 16px;
+    font-size: 40rpx;
 }
 
 .container {

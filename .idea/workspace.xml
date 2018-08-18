@@ -1,22 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d3c32fe-d899-441b-b2ac-d229f57c60f1" name="Default Changelist" comment="no line">
+    <list default="true" id="9d3c32fe-d899-441b-b2ac-d229f57c60f1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/guide.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/guide.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/detail/detail.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/detail/detail.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/guide/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/guide/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/guide/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/guide/index.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/history/history.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/history/history.wxss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/profile/profile.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/profile/profile.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/school/detail/detail.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/school/detail/detail.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/school/monthly/monthly.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/school/monthly/monthly.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/school/school.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/school/school.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/search/search.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/search/search.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utils/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/util.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -32,56 +25,57 @@
     <session id="-1791996860">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="2" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="689" />
-          <entry key="json" value="23" />
+          <entry key="js" value="1118" />
+          <entry key="json" value="26" />
           <entry key="md" value="28" />
-          <entry key="php" value="612" />
-          <entry key="txt" value="24" />
-          <entry key="wxml" value="118" />
-          <entry key="wxss" value="90" />
+          <entry key="php" value="810" />
+          <entry key="txt" value="41" />
+          <entry key="wxml" value="161" />
+          <entry key="wxss" value="120" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="90" />
-          <entry key="HTML" value="118" />
-          <entry key="JSON" value="23" />
-          <entry key="JavaScript" value="689" />
-          <entry key="PHP" value="612" />
-          <entry key="PLAIN_TEXT" value="52" />
+          <entry key="CSS" value="120" />
+          <entry key="HTML" value="161" />
+          <entry key="JSON" value="26" />
+          <entry key="JavaScript" value="1118" />
+          <entry key="PHP" value="810" />
+          <entry key="PLAIN_TEXT" value="69" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="19" />
-          <entry key="json" value="3" />
+          <entry key="js" value="34" />
+          <entry key="json" value="5" />
           <entry key="md" value="1" />
-          <entry key="php" value="8" />
-          <entry key="wxml" value="15" />
-          <entry key="wxss" value="14" />
+          <entry key="php" value="15" />
+          <entry key="wxml" value="23" />
+          <entry key="wxss" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="14" />
-          <entry key="HTML" value="14" />
-          <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="19" />
-          <entry key="PHP" value="8" />
+          <entry key="CSS" value="17" />
+          <entry key="HTML" value="22" />
+          <entry key="JSON" value="5" />
+          <entry key="JavaScript" value="34" />
+          <entry key="PHP" value="15" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
@@ -89,81 +83,95 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/guide/index.js">
+        <entry file="file://$PROJECT_DIR$/pages/school/monthly/monthly.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="36" column="44" lean-forward="true" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/news/news.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/news/news.wxss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="355">
+              <caret line="53" column="21" lean-forward="true" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/news/news.wxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/school/detail/detail.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="true" current-in-tab="false">
+        <entry file="remoteDeploymentFS://&lt;2f595c30-1102-4441-a757-5f8bbb5a99b5&gt;/Shuguide/Domain/Guide.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="37" lean-forward="true" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="true" current-in-tab="false">
+        <entry file="remoteDeploymentFS://&lt;2f595c30-1102-4441-a757-5f8bbb5a99b5&gt;/Shuguide/Domain/Default.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="true" current-in-tab="true">
+        <entry file="remoteDeploymentFS://&lt;2f595c30-1102-4441-a757-5f8bbb5a99b5&gt;/Shuguide/Model/Default.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
+              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/search/search.wxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="46" column="36" lean-forward="true" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
-            </state>
-          </provider>
+      <file pinned="true" current-in-tab="false">
+        <entry file="remoteDeploymentFS://&lt;2f595c30-1102-4441-a757-5f8bbb5a99b5&gt;/Shuguide/Api/Guide.php">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/config.js">
+      <file pinned="true" current-in-tab="false">
+        <entry file="remoteDeploymentFS://&lt;2f595c30-1102-4441-a757-5f8bbb5a99b5&gt;/Shuguide/Api/Default.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/index/index.wxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="n#style#0;n#image#0;n#view#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/index/index.wxss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="517">
-              <caret line="48" column="16" lean-forward="true" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/util.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="637">
-              <caret line="43" column="16" lean-forward="true" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/guide.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" column="11" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/guide/index.wxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="27" column="29" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="29" />
+            <state relative-caret-position="390">
+              <caret line="47" selection-start-line="47" selection-start-column="2" selection-end-line="50" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -175,6 +183,8 @@
       <find>line</find>
       <find>rpx</find>
       <find>placeclick</find>
+      <find>is_bind</find>
+      <find>that</find>
     </findStrings>
     <replaceStrings>
       <replace>rpx</replace>
@@ -192,13 +202,11 @@
         <option value="$PROJECT_DIR$/pages/school/school.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/app.json" />
         <option value="$PROJECT_DIR$/pages/search/search.js" />
         <option value="$PROJECT_DIR$/pages/search/search.wxml" />
         <option value="$PROJECT_DIR$/pages/search/search.wxss" />
         <option value="&lt;e1f8a320-5750-4c0b-9748-0463fc9a0def&gt;/Shuguide/Api/Guide.php" />
         <option value="&lt;e1f8a320-5750-4c0b-9748-0463fc9a0def&gt;/Shuguide/Domain/Guide.php" />
-        <option value="$PROJECT_DIR$/api/guide.js" />
         <option value="&lt;e1f8a320-5750-4c0b-9748-0463fc9a0def&gt;/Shuguide/Model/Guide.php" />
         <option value="$PROJECT_DIR$/pages/guide/index.wxml" />
         <option value="$PROJECT_DIR$/pages/template/catalog.wxml" />
@@ -207,9 +215,18 @@
         <option value="$PROJECT_DIR$/pages/history/history.wxss" />
         <option value="$PROJECT_DIR$/pages/guide/index.js" />
         <option value="$PROJECT_DIR$/utils/config.js" />
-        <option value="$PROJECT_DIR$/utils/util.js" />
         <option value="$PROJECT_DIR$/pages/index/index.wxss" />
+        <option value="$PROJECT_DIR$/utils/util.js" />
         <option value="$PROJECT_DIR$/pages/index/index.wxml" />
+        <option value="$PROJECT_DIR$/app.json" />
+        <option value="&lt;2f595c30-1102-4441-a757-5f8bbb5a99b5&gt;/Shuguide/Api/Default.php" />
+        <option value="&lt;2f595c30-1102-4441-a757-5f8bbb5a99b5&gt;/Shuguide/Domain/Default.php" />
+        <option value="$PROJECT_DIR$/api/api.js" />
+        <option value="$PROJECT_DIR$/api/guide.js" />
+        <option value="$PROJECT_DIR$/pages/news/news.js" />
+        <option value="$PROJECT_DIR$/pages/news/news.wxss" />
+        <option value="$PROJECT_DIR$/pages/news/news.wxml" />
+        <option value="&lt;2f595c30-1102-4441-a757-5f8bbb5a99b5&gt;/Shuguide/Model/Default.php" />
       </list>
     </option>
   </component>
@@ -226,9 +243,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="-1" />
-    <option name="width" value="1920" />
-    <option name="height" value="1082" />
+    <option name="x" value="960" />
+    <option name="width" value="960" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -257,7 +274,19 @@
               <item name="shuguide" type="b2602c69:ProjectViewProjectNode" />
               <item name="shuguide" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
+              <item name="news" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shuguide" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shuguide" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="profile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shuguide" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shuguide" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="school" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -316,7 +345,10 @@
       <workItem from="1533628392283" duration="1918000" />
       <workItem from="1533779373185" duration="303000" />
       <workItem from="1533801847699" duration="1763000" />
-      <workItem from="1533862646811" duration="25381000" />
+      <workItem from="1533862646811" duration="25597000" />
+      <workItem from="1533910919921" duration="236000" />
+      <workItem from="1533913336166" duration="18000" />
+      <workItem from="1534492397626" duration="24051000" />
     </task>
     <task id="LOCAL-00001" summary="upload">
       <created>1533220422240</created>
@@ -381,11 +413,25 @@
       <option name="project" value="LOCAL" />
       <updated>1533904907533</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="修复了很多小bug,初代版本">
+      <created>1533910777799</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1533910777799</updated>
+    </task>
+    <task id="LOCAL-00011" summary="修复了很多小bug,初代版本">
+      <created>1533910850819</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1533910850819</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35439000" />
+    <option name="totallyTimeSpent" value="59960000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -400,7 +446,7 @@
     <frame x="0" y="-1" width="1920" height="1082" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.104700856" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10683761" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -409,13 +455,13 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4949868" weight="0.3291536" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4946581" weight="0.3291536" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.47862798" visible="true" weight="0.28213167" />
-      <window_info anchor="bottom" x="12" y="458" width="1895" height="164" id="Terminal" order="9" sideWeight="0.4823219" weight="0.1431557" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.521372" side_tool="true" weight="0.3260188" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" sideWeight="0.49949545" visible="true" weight="0.3294893" />
-      <window_info anchor="right" id="Remote Host" order="0" visible="true" weight="0.07852564" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.47489315" visible="true" weight="0.28108674" />
+      <window_info anchor="bottom" x="12" y="458" width="1895" height="164" id="Terminal" order="9" sideWeight="0.4818376" weight="0.1431557" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.52510685" side_tool="true" visible="true" weight="0.28108674" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49949545" weight="0.3294893" />
+      <window_info anchor="right" id="Remote Host" order="0" visible="true" weight="0.15865384" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
@@ -425,6 +471,7 @@
     <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.History.Properties">
+    <option name="SHOW_OTHER_BRANCHES" value="true" />
     <option name="COLUMN_ORDER">
       <list>
         <option value="0" />
@@ -467,7 +514,8 @@
     <MESSAGE value="upload" />
     <MESSAGE value="TEST" />
     <MESSAGE value="no line" />
-    <option name="LAST_COMMIT_MESSAGE" value="no line" />
+    <MESSAGE value="修复了很多小bug,初代版本" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复了很多小bug,初代版本" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -485,13 +533,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/school/school.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/history/history.wxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -506,16 +547,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/api.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/search/search.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1095">
           <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -526,20 +561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="44" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/index/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-70">
-          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/index/index.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -547,9 +568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="25" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="25" />
-          <folding>
-            <element signature="n#style#0;n#image#0;n#view#1;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -574,34 +592,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/guide/index.wxml">
+    <entry file="file://$PROJECT_DIR$/utils/amap-wx.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="27" column="29" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/guide.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="11" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="11" />
+        <state>
+          <caret column="56" lean-forward="true" selection-start-column="56" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/guide/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="315">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/search/search.wxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="46" column="36" lean-forward="true" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+        <state relative-caret-position="690">
+          <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -612,20 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/amap-wx.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="56" lean-forward="true" selection-start-column="56" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/util.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="637">
-          <caret line="43" column="16" lean-forward="true" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/index/index.wxss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="517">
@@ -633,13 +627,129 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/guide/index.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/index/index.wxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/news/detail/detail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/news/new/new_detail.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/history/history.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/guide.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="58" lean-forward="true" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/school/school.wxml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/school/school.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-337">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/school/monthly/monthly.wxml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/school/templates/volItem.wxml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/school/detail/detail.wxml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/school/detail/detail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
           <folding>
-            <element signature="n#style#0;n#image#0;n#view#0;n#!!top" expanded="true" />
+            <element signature="e#0#37#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/school/monthly/monthly.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="44" lean-forward="true" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/news/news.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="53" column="21" lean-forward="true" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/news/news.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/news/news.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
         </state>
       </provider>
     </entry>

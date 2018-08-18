@@ -11,7 +11,7 @@
             <text class="nav-text">游览\n上大</text>
         </view>
     </navigator>
-    <navigator url="/pages/school/school" hover-class="navigator-hover">
+    <navigator url="/pages/news/news" hover-class="navigator-hover">
         <view class='topm'>
             <text class="nav-text">上大\n资讯</text>
         </view>

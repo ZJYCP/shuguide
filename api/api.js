@@ -24,7 +24,9 @@ const wxRequest = (params, url) => {
 const getVolsByMonth = (params) => wxRequest(params, host + '?service=Default.getMonth&month=' + params.query.month)
 const getVolDetailById = (params) => wxRequest(params, host + '?service=Default.getdetail&id=' + params.query.id)
 
+// const getVolIdList = (params) => wxRequest(params, host + '?service=Default.getList')
 const getVolIdList = (params) => wxRequest(params, host + '?service=Default.getList')
+
 const getVolById = (params) => wxRequest(params, host + '?service=Default.getdetail&id=' + params.query.id)
 
 module.exports = {

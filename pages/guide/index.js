@@ -61,7 +61,7 @@ Page({
         let kind = parseInt(e.target.id)+1
         kind = kind < 10 ? '0' + kind : kind
         let campus=parseInt(this.data.index)+1
-        kind=campus+kind
+        kind=campus+''+kind
         //console.log(this.data.index)
         var that = this
 

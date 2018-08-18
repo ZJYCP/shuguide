@@ -22,7 +22,7 @@ const getDateList = () => {
         for (let m = 11; m >= 0; m--) {
             dateList.push({
                 title: MONTH_MAP[m] + y,
-                value: y + '-' + '0' + (m + 1)
+                value: y + '-' + (m>9?(m+1):('0'+(m+1)))
             })
         }
     }
