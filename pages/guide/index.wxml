@@ -1,7 +1,7 @@
 <import src="../template/catalog.wxml"/>
 
 <map id="myMap" class="{{ischecked?'map_checked':'map_normal'}}" show-location include-points="{{include_points}}"
-     latitude="{{latitude}}" longitude="{{longitude}}" markers="{{markers}}" bindcontroltap="controltap" scale="15">
+     latitude="{{latitude}}" longitude="{{longitude}}" markers="{{markers}}" bindcontroltap="controltap" scale="15" bindmarkertap="clickpoint">
     <cover-view class="tip">
         <cover-image class="tip-img" src="../../images/search.png" bindtap="controltap"/>
         <cover-image class="tip-img" src="../../images/locate.png" bindtap="getmylocation"/>
@@ -14,7 +14,7 @@
 </view>
 
 <view class="{{ischecked?'bottom_checked':'bottom_normal'}}">
-    <scroll-view class="catogory" scroll-y="true" style="height: 100%;">
+    <scroll-view class="catogory" scroll-y="true"  scroll-into-view="{{toview}}">
         <block wx:for="{{place}}" wx:key="id">
             <template is="catalog" data="{{...item}}"/>
         </block>

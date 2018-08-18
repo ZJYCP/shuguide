@@ -24,6 +24,10 @@
 .m-poi{
   position: relative;
 }
+.m-poi-chosen{
+  position: relative;
+  background-color: lightgrey;
+}
 .m-poi .cover{
   width: 190rpx;
   height: 190rpx;

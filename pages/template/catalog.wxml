@@ -1,5 +1,5 @@
 <template name="catalog">
-    <view class="m-poi" bindtap="gotodetail" data-id="{{ id }}" >
+    <view id="a{{id}}" class="m-poi" style="background-color:{{chosen==true?'#99CCFF':'white'}}" bindtap="gotodetail" data-id="{{ id }}" >
         <image class="cover" src="https://guide.emx6.com/image/headimg/{{headimg}}" background-size="cover"></image>
         <view class="info">
             <view>

@@ -1,5 +1,6 @@
 import guide from '../../api/guide.js'
 import util from '../../utils/util.js'
+
 Page({
     data: {
         include_points: [],
@@ -13,12 +14,23 @@ Page({
         ischecked: false,
         count: '',
         placeclick: '大门',
-        kindlist:''
+        kindlist: '',
+        toview: '',
+        height: ''
     },
     /**
      * 生命周期函数--监听页面加载
      */
     onLoad: function (options) {
+    //     let that = this
+    //     wx.getSystemInfo({
+    //         success: function (res) {
+    //             //console.log(res.windowHeight)
+    //             that.setData({
+    //                 height: res.windowHeight
+    //             })
+    //         },
+    //     })
         this.getkind(1)
 
     },
@@ -39,18 +51,18 @@ Page({
         })
     },
 
-    getkind(campus){
-        let that=this
+    getkind(campus) {
+        let that = this
         guide.getkind({
-            query:{
-                campus:campus
+            query: {
+                campus: campus
             },
-            success:(res)=>{
+            success: (res) => {
                 //console.log(res.data.data)
                 that.setData({
-                    kindlist:res.data.data
+                    kindlist: res.data.data
                 })
-        }
+            }
         })
     },
 
@@ -58,10 +70,10 @@ Page({
     getcatalog: function (e) {
         console.log(e)
         this.setData({placeclick: e.currentTarget.dataset.placeclick})
-        let kind = parseInt(e.target.id)+1
+        let kind = parseInt(e.target.id) + 1
         kind = kind < 10 ? '0' + kind : kind
-        let campus=parseInt(this.data.index)+1
-        kind=campus+''+kind
+        let campus = parseInt(this.data.index) + 1
+        kind = campus + '' + kind
         //console.log(this.data.index)
         var that = this
 
@@ -112,25 +124,25 @@ Page({
 
     //校区改变
     bindPickerChange: function (e) {
-        let that=this
+        let that = this
 
-        util.showBusy('正在切换',500)
+        util.showBusy('正在切换', 500)
         setTimeout(function () {
             that.setData({
                 index: e.detail.value
             })
-            let campus=parseInt(e.detail.value)+1
+            let campus = parseInt(e.detail.value) + 1
             that.getkind(campus)
             guide.getplace({
                 query: {
-                    kind: campus+'01'
+                    kind: campus + '01'
                 },
                 success: (res) => {
                     that.makefun(res)
                 }
             })
 
-        },700)
+        }, 700)
 
     },
 
@@ -184,5 +196,32 @@ Page({
     getmylocation() {
         var that = this
         this.mapCtx.moveToLocation()
+    },
+
+    clickpoint(e){
+        //console.log(e)
+        var that=this
+        let markers=this.data.markers
+        let places=this.data.place
+        markers.forEach(function(pointid,index,array){
+
+            if(e.markerId==pointid.id){
+                markers[index].width=30
+                    markers[index].height=40
+                places[index].chosen=true
+            }else{
+                markers[index].width=22
+                markers[index].height=32
+                places[index].chosen=false
+
+            }
+
+        })
+        this.setData({
+            markers:markers,
+            place:places,
+            toview:'a'+e.markerId
+        })
+
     }
 })

@@ -20,6 +20,7 @@ image {
     font-size: 15px;
     margin: 0 30px 30px 30px;
     display: inline-block;
+    font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
 }
 
 .anniu {
