@@ -16,27 +16,52 @@ Page({
         placeclick: '大门',
         kindlist: '',
         toview: '',
-        height: ''
+        yanchang: [{
+            iconPath: "../../images/yanchang.png",
+            id: 0,
+            latitude:31.275557,
+            longitude:121.457269,
+            width: 60,
+            height: 30
+        }],
+        polyline: [{
+            points:
+                [
+                    {latitude:31.277203,longitude:121.455869},
+                    {latitude:31.277451,longitude:121.457988},
+                    {latitude:31.274700,longitude:121.458927},
+                    {latitude:31.274269,longitude:121.457124},
+                    {latitude:31.274617,longitude:121.456996},
+                    {latitude:31.274470,longitude:121.456491},
+                    {latitude:31.277203,longitude:121.455869},
+
+                ],
+            color:"#FF0000DD",
+            width: 2,
+            dottedLine: true
+        }]
+
     },
     /**
      * 生命周期函数--监听页面加载
      */
     onLoad: function (options) {
-    //     let that = this
-    //     wx.getSystemInfo({
-    //         success: function (res) {
-    //             //console.log(res.windowHeight)
-    //             that.setData({
-    //                 height: res.windowHeight
-    //             })
-    //         },
-    //     })
+        //     let that = this
+        //     wx.getSystemInfo({
+        //         success: function (res) {
+        //             //console.log(res.windowHeight)
+        //             that.setData({
+        //                 height: res.windowHeight
+        //             })
+        //         },
+        //     })
         this.getkind(1)
 
-    },
+    }
+    ,
 
 
-    // 获取初始数据
+// 获取初始数据
     onReady: function () {
         this.mapCtx = wx.createMapContext('myMap')
         var that = this
@@ -49,7 +74,8 @@ Page({
                 that.makefun(res);
             }
         })
-    },
+    }
+    ,
 
     getkind(campus) {
         let that = this
@@ -64,7 +90,8 @@ Page({
                 })
             }
         })
-    },
+    }
+    ,
 
 //获取地点数据
     getcatalog: function (e) {
@@ -85,7 +112,8 @@ Page({
                 that.makefun(res)
             }
         })
-    },
+    }
+    ,
 
     makefun(res) {
         let markerss = []
@@ -103,11 +131,13 @@ Page({
             markerss.push(marker)
             include_points.push(include_point)
         }
+        markerss.push(this.data.yanchang[0])
         //console.log(include_points)
         this.setData({markers: markerss, include_points: include_points})
-    },
+    }
+    ,
 
-    //设置地图上markers标记
+//设置地图上markers标记
     createMarker(point) {
         let latitude = point.latitude;
         let longitude = point.longitude;
@@ -120,9 +150,10 @@ Page({
             height: 32
         };
         return marker;
-    },
+    }
+    ,
 
-    //校区改变
+//校区改变
     bindPickerChange: function (e) {
         let that = this
 
@@ -144,9 +175,10 @@ Page({
 
         }, 700)
 
-    },
+    }
+    ,
 
-    //地点都是
+//地点都是
     gotodetail: function (e) {
         let id = e.currentTarget.dataset.id
         wx.navigateTo({
@@ -159,9 +191,10 @@ Page({
             },
 
         })
-    },
+    }
+    ,
 
-    //进入导航界面
+//进入导航界面
     gotowalk: function (e) {
         var that = this;
         console.log(e)
@@ -176,51 +209,61 @@ Page({
             complete: function (res) {
             },
         })
-    },
+    }
+    ,
 
-    //向下折叠
+//向下折叠
     collapse(e) {
         var state = e.currentTarget.dataset.state;
         this.setData({
             ischecked: state ? false : true
         })
-    },
+    }
+    ,
 
-    //地点搜索
+//地点搜索
     controltap() {
         wx.navigateTo({
             url: '../search/search'
         })
-    },
+    }
+    ,
 
     getmylocation() {
         var that = this
         this.mapCtx.moveToLocation()
-    },
+    }
+    ,
 
-    clickpoint(e){
+    clickpoint(e) {
         //console.log(e)
-        var that=this
-        let markers=this.data.markers
-        let places=this.data.place
-        markers.forEach(function(pointid,index,array){
+        var that = this
+        let markers = this.data.markers
+        let places = this.data.place
+        markers.forEach(function (pointid, index, array) {
 
-            if(e.markerId==pointid.id){
-                markers[index].width=30
-                    markers[index].height=40
-                places[index].chosen=true
-            }else{
-                markers[index].width=22
-                markers[index].height=32
-                places[index].chosen=false
+            if(pointid.id==0){
 
             }
+            else{
+                if (e.markerId == pointid.id ) {
+                    markers[index].width = 30
+                    markers[index].height = 40
+                    places[index].chosen = true
+                } else {
+                    markers[index].width = 22
+                    markers[index].height = 32
+                    places[index].chosen = false
+
+                }
+            }
+
 
         })
         this.setData({
-            markers:markers,
-            place:places,
-            toview:'a'+e.markerId
+            markers: markers,
+            place: places,
+            toview: 'a' + e.markerId
         })
 
     }

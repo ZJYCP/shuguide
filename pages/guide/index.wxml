@@ -1,7 +1,7 @@
 <import src="../template/catalog.wxml"/>
 
 <map id="myMap" class="{{ischecked?'map_checked':'map_normal'}}" show-location include-points="{{include_points}}"
-     latitude="{{latitude}}" longitude="{{longitude}}" markers="{{markers}}" bindcontroltap="controltap" scale="15" bindmarkertap="clickpoint">
+     latitude="{{latitude}}" longitude="{{longitude}}" polyline="{{polyline}}" markers="{{markers}}" bindcontroltap="controltap" scale="15" bindmarkertap="clickpoint">
     <cover-view class="tip">
         <cover-image class="tip-img" src="../../images/search.png" bindtap="controltap"/>
         <cover-image class="tip-img" src="../../images/locate.png" bindtap="getmylocation"/>

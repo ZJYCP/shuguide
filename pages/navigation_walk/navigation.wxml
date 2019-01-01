@@ -3,10 +3,10 @@
     <view class="flex-item active" bindtouchstart="goToWalk">步行</view>
     <view class="flex-item" bindtouchstart="goToBus">公交</view>
     <view class="flex-item" bindtouchstart="goToRide">骑行</view> -->
-    <view class="flex-item active" bindtouchstart="goToWalk">只有步行</view>
+    <view class="flex-item active" bindtouchstart="goToWalk">步行规划</view>
 </view>
 <view class="map_box">
-    <map id="navi_map" longitude="121.393518" latitude="31.316211" scale="16" markers="{{markers}}"
+    <map id="navi_map" longitude="{{markers[0].longitude}}" latitude="{{markers[0].latitude}}" scale="18" markers="{{markers}}"
          polyline="{{polyline}}"></map>
 </view>
 
